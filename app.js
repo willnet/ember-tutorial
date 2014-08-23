@@ -1,1 +1,3 @@
-console.log('hi!');
+var App = Ember.Application.create({
+  LOG_TRANSITIONS: true
+});
